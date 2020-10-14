@@ -1,0 +1,9 @@
+include ':arouter'
+include ':annotation_compiler'
+include ':common'
+include ':base'
+include ':annotation'
+include ':login'
+include ':splash'
+include ':app'
+rootProject.name = "ComponentizedProgramming"
