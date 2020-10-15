@@ -7,13 +7,23 @@
     tools:context=".LoginActivity">
 
     <Button
-        android:onClick="jump"
+        android:id="@+id/jump"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="jump"
         android:text="to main"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="set"
+        android:text="set data"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/jump" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
